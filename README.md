@@ -1,4 +1,4 @@
-his is a JavaScript project for a tip calculator that helps users to calculate the tip amount and total bill amount per person. The calculator takes in user inputs such as the bill amount, number of people, and custom tip percentage.
+This is a JavaScript project for a tip calculator that helps users to calculate the tip amount and total bill amount per person. The calculator takes in user inputs such as the bill amount, number of people, and custom tip percentage.
 Features
 
     Calculates tip amount and total bill amount per person based on pre-set tip percentages or custom tip percentage
