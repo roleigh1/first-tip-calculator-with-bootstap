@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(163, 214, 211);
+}
+.container {
+    background-color: rgb(246, 248, 249);
+    margin-top: 15rem;
+    border-radius: 5px;
+}
+
+#custom {
+    width: 5rem;
+}
+.btn {
+    width: 5rem;
+
+}
+.results {
+    background-color: rgb(65, 130, 119);
+    height: 20rem;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+}
+span {
+    font-size: 2rem;
+}
+h1 {
+    font-size: 1.5rem;
+}
