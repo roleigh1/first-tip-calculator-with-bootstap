@@ -16,7 +16,7 @@ To install the project, simply clone the repository or download the source files
 
 bash
 
-git clone https://github.com/your-username/tip-calculator.git
+git clone https://github.com/roleigh1/first-tip-calculator-with-bootstap/
 
 Usage
 
