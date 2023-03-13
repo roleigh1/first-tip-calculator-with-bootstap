@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(149, 201, 201);
+    font-family: 'Space Mono', monospace;
+}   
+.container {
+    background-color: rgb(240, 242, 243);
+    margin-top: 5%;
+    border-radius: 5px;
+}
+
+#custom {
+    width: 5rem;
+}
+.btn {
+    width: 5rem;
+    color: white;
+
+}
+.results {
+    background-color: rgb(65, 130, 119);
+    height: 20rem;
+    margin-top: 2.5rem;
+    
+    color: white;
+    border-bottom-left-radius:5px;
+}
+#amount,#total {
+    font-size: 2rem;
+    opacity: 0.6;
+    color:white;
+}
+.results p {
+    opacity: 0.5;
+}
+#custom {
+    border: 2px solid #0DCAF0;
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 5px;
+}
+#people,#bill{
+    border-radius: 5px;
+    border: 2px solid rgba(120, 128, 127, 0.667);
+    width: 20rem;
+    text-align: center;
+    color: #767c7d;
+}
+#bill {
+    
+    background-image: url("icon-dollar.svg");
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
+#people {
+    padding-left: 5px;
+    background-image: url("icon-person.svg");
+    background-repeat: no-repeat;
+    background-position: 5px;
+}
