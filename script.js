@@ -8,8 +8,8 @@ var total = document.querySelector('#total');
 
 allBtns.forEach(button => {
     button.addEventListener("click", () => {
-        var bill = parseFloat(inputBill.value) || 0;
-        var people = parseFloat(inputPeople.value) || 1;
+        const bill = parseFloat(inputBill.value) || 0;
+        const people = parseFloat(inputPeople.value) || 1;
         if(button.value === "0.05"){
             var tipAmount05 = bill * 0.05;
             var totalAmount05 = (tipAmount05 + bill) / people;
@@ -39,13 +39,18 @@ allBtns.forEach(button => {
             var totalAmount50 = (tipAmount50 + bill) / people; 
             amount.innerHTML = '$' + tipAmount50.toFixed(2);
             total.innerHTML = '$' + totalAmount50.toFixed(2);
+        } // the reset btn
+        if (button.value === "reset"){  
+            amount.innerHTML = '$' + "0.00";
+            total.innerHTML = '$' + "0.00";
+            inputBill.value = "0";
+            inputPeople.value = "0";
         }
-
     })
 });
 function enter(element,e) {
-    var people = parseFloat(inputPeople.value) || 1;
-    var bill = parseFloat(inputBill.value) || 0;
+    const people = parseFloat(inputPeople.value) || 1;
+    const bill = parseFloat(inputBill.value) || 0;
     var cust = parseFloat(inputBill.value) || 0;
     var percCost = cust / 100;
     var tipAmountCus = bill * percCost;
@@ -60,10 +65,4 @@ function enter(element,e) {
         amount.innerHTML = '$' + tipAmountCus.toFixed(2);
         total.innerHTML = '$' + totalAmountCus.toFixed(2);
     }
-}
-function reset() {
-    amount.innerHTML = '$' + "0.00";
-    total.innerHTML = '$' + "0.00";
-    inputBill.value = "0";
-    inputPeople.value = "0";
 }
